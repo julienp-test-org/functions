@@ -5,6 +5,10 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-functions",
+      options: { path: `${__dirname}/src/functions` },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
