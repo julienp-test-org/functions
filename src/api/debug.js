@@ -9,5 +9,6 @@ export default (req, res) => {
     protocol: req.protocol,
     query: req.query,
     headers: req.headers,
+    body: req.body,
   })
 }
