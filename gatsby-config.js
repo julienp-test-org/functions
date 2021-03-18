@@ -7,7 +7,7 @@ module.exports = {
   plugins: [
     {
       resolve: "gatsby-plugin-functions",
-      options: { path: `${__dirname}/src/functions` },
+      options: { path: `${__dirname}/src/api` },
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
