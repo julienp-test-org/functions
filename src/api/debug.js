@@ -8,5 +8,6 @@ export default (req, res) => {
     path: req.path,
     protocol: req.protocol,
     query: req.query,
+    headers: req.headers,
   })
 }
