@@ -5929,7 +5929,7 @@ gatsby-page-utils@^1.0.0:
     lodash "^4.17.20"
     micromatch "^4.0.2"
 
-gatsby-plugin-functions@^0.1.0-5:
+gatsby-plugin-functions@^0.1.0-6:
   version "0.1.0-6"
   resolved "https://registry.npmjs.org/gatsby-plugin-functions/-/gatsby-plugin-functions-0.1.0-6.tgz#4f6eaec536ef508bdde47a76868f940774073260"
   integrity sha512-C+r4UdLLQx4nrHvs6JfTRRuP/xciBJ6qVan+WEfo3y00KeREOScmtebM18m43i9rfBDSdtUPCZ5Q04LwuQbsdg==
