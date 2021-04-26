@@ -12,5 +12,6 @@ module.exports = (req, res) => {
     headers: req.headers,
     body: req.body,
     env,
+    env2,
   })
 }
