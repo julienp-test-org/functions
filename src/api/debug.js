@@ -11,6 +11,7 @@ module.exports = (req, res) => {
     query: req.query,
     headers: req.headers,
     body: req.body,
+    cookies: req.cookies,
     env,
     env2,
   })
