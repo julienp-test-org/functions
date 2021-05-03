@@ -1,6 +1,9 @@
 module.exports = (req, res) => {
   const env = JSON.stringify(process.env)
   const env2 = JSON.stringify(process[`env`])
+  console.log({ env })
+  console.log({ env2 })
+  console.log(`Hello there`)
   res.status(200).send({
     hostname: req.hostname,
     ip: req.ip,
