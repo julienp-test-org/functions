@@ -4,6 +4,8 @@ module.exports = (req, res) => {
   console.log({ env })
   console.log({ env2 })
   console.log(`Hello there`)
+  const SOME_VAR = process.env.SOME_VAR
+  console.log({ SOME_VAR })
   res.status(200).send({
     hostname: req.hostname,
     ip: req.ip,
@@ -18,5 +20,6 @@ module.exports = (req, res) => {
     cookies: req.cookies,
     env,
     env2,
+    SOME_VAR,
   })
 }
