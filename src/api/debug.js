@@ -5,7 +5,8 @@ module.exports = (req, res) => {
   console.log({ env2 })
   console.log(`Hello there`)
   const SOME_VAR = process.env.SOME_VAR
-  console.log({ SOME_VAR })
+  const GATSBY_SOME_VAR = process.env.GATSBY_SOME_VAR
+  console.log({ SOME_VAR, GATSBY_SOME_VAR })
   res.status(200).send({
     hostname: req.hostname,
     ip: req.ip,
@@ -21,5 +22,6 @@ module.exports = (req, res) => {
     env,
     env2,
     SOME_VAR,
+    GATSBY_SOME_VAR,
   })
 }
