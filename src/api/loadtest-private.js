@@ -1,4 +1,4 @@
-function handler(req, res) {
+export default function handler(req, res) {
   let primes = getPrimes(10000)
   res.set(`Cache-Control`, `private`)
   res.json(primes)
